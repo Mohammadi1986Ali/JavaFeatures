@@ -1,1 +1,5 @@
 # JavaFeatures
+
+Modules:
+
+- POJO Bean
