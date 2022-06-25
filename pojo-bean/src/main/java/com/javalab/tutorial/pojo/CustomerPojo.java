@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 
 public class CustomerPojo {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(CustomerPojo.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CustomerPojo.class);
 
     public String name;
     public Integer age;

@@ -10,7 +10,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 class LogHandlerTest {
-    private static Logger LOGGER = LoggerFactory.getLogger(LogHandler.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(LogHandler.class);
     private static ExecutorService EXECUTOR;
 
     @BeforeAll

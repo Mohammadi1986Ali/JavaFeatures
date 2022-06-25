@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>runnable-callable</artifactId>
+    <artifactId>upcast-downcast</artifactId>
     <packaging>jar</packaging>
 
     <build>
@@ -30,7 +30,6 @@
                     </archive>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -42,17 +41,16 @@
                         <goals>
                             <goal>copy-dependencies</goal>
                         </goals>
-                        <configuration>
-                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                            <overWriteSnapshots>false</overWriteSnapshots>
-                            <overWriteReleases>false</overWriteReleases>
-                            <overWriteIfNewer>true</overWriteIfNewer>
-                        </configuration>
                     </execution>
                 </executions>
+                <configuration>
+                    <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                    <overWriteIfNewer>true</overWriteIfNewer>
+                    <overWriteSnapshots>false</overWriteSnapshots>
+                    <overWriteReleases>false</overWriteReleases>
+                </configuration>
             </plugin>
         </plugins>
-
         <resources>
             <resource>
                 <filtering>true</filtering>

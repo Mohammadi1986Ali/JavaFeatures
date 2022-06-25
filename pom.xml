@@ -12,6 +12,7 @@
     <modules>
         <module>pojo-bean</module>
         <module>runnable-callable</module>
+        <module>upcast-downcast</module>
     </modules>
 
     <properties>

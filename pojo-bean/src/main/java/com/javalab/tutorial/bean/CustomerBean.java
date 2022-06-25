@@ -9,7 +9,7 @@ public class CustomerBean implements Serializable {
 
     private static long serialVersionUID = 1613299737795205292L;
 
-    private static Logger LOGGER = LoggerFactory.getLogger(CustomerBean.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CustomerBean.class);
 
     private String name;
     private Integer age;

@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 class ApplicationTest {
-    private static Logger LOGGER = LoggerFactory.getLogger(ApplicationTest.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(ApplicationTest.class);
 
     @Test
     void whenCustomerBeanObjectCreated_thenCustomerBeanObjectMustBeCreated() {

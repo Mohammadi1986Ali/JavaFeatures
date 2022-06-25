@@ -40,9 +40,7 @@
                         <id>copy-dependencies</id>
                         <phase>prepare-package</phase>
                         <goals>
-                            <goal>
-                                copy-dependencies
-                            </goal>
+                            <goal>copy-dependencies</goal>
                         </goals>
                     </execution>
                 </executions>

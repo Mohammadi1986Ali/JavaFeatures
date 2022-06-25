@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class FactorialTaskTest {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(FactorialTask.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(FactorialTask.class);
     private ExecutorService executorService;
 
     @BeforeEach

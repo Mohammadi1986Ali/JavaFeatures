@@ -7,7 +7,7 @@ import java.util.concurrent.Callable;
 
 public class FactorialTask implements Callable<Integer> {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(FactorialTask.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(FactorialTask.class);
 
     int number;
 
