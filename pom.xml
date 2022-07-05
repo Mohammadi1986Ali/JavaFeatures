@@ -13,6 +13,7 @@
         <module>pojo-bean</module>
         <module>runnable-callable</module>
         <module>upcast-downcast</module>
+        <module>exception-handling</module>
     </modules>
 
     <properties>
